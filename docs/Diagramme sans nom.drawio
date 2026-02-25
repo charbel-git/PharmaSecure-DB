@@ -1,0 +1,25 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="gR4jP-tPMDcjN4lHtLF3">
+    <mxGraphModel dx="1246" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N2Ruzs6EIu5vqXQV7LqG-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;strokeWidth=7;" value="Table catégories" vertex="1">
+          <mxGeometry height="200" width="200" x="100" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="N2Ruzs6EIu5vqXQV7LqG-3" parent="N2Ruzs6EIu5vqXQV7LqG-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="id_categorie (PK)&lt;div&gt;nom_categorie&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="50" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="N2Ruzs6EIu5vqXQV7LqG-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;strokeWidth=7;" value="Table médicaments" vertex="1">
+          <mxGeometry height="200" width="200" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N2Ruzs6EIu5vqXQV7LqG-7" parent="N2Ruzs6EIu5vqXQV7LqG-6" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="id_medoc (PK)&lt;div&gt;nom_medoc&lt;/div&gt;&lt;div&gt;code_barre&lt;/div&gt;&lt;div&gt;prix_unitaire&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;quantite_stock&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;date_peremption&lt;/span&gt;&lt;/div&gt;&lt;div&gt;id_categorie&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="100" x="50" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="N2Ruzs6EIu5vqXQV7LqG-9" edge="1" parent="1" source="N2Ruzs6EIu5vqXQV7LqG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.889;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="N2Ruzs6EIu5vqXQV7LqG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
